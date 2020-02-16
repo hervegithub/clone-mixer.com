@@ -64,3 +64,25 @@ header{
     font-weight: bold;
 }
 
+/*Css for features section*/
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.videos-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 580px 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.video{
+    background: white;
+}
+
+.center{
+    width: 580px;
+    height: 326px;
+    background: red;
+}
